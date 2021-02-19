@@ -1,4 +1,4 @@
-public class Secong {
+public class Second {
     public static void main(String[] args) {
         System.out.println(myName());
         System.out.println(add(2,2));
@@ -38,7 +38,7 @@ public class Secong {
         System.out.println(6>8||3 == 3);
     }
     public static void areStringsEqual(){
-        String name1 = new String("Egle");
+        String name1 = new String("Egle");  
         String name2 = new String("Egle");
         System.out.println(name1 == name2);
         System.out.println(name1);
