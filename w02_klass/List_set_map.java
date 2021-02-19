@@ -12,9 +12,11 @@ public class List_set_map {
         arrayList();
         hashSet();
         hashMap();
+
+        //arrayList array = new arrayList();
+        //System.out.println(array());
     }
-    public static void arrayList(){
-        
+    public static void arrayList(){        
         ArrayList<String> food = new ArrayList<String>();
         food.add("Bread");
         food.add("Carrot");
@@ -57,7 +59,7 @@ public class List_set_map {
 
         Estonia.put("Harjumaa", "Tallinn");
         Estonia.put("Järvamaa", "Paide");
-        Estonia.put("Jõgevamaa", "Viljandi");
+        Estonia.put("Jõgevamaa", "Jõgeva");
         Estonia.put("Viljandimaa", "Viljandi");
         System.out.println(Estonia);
 

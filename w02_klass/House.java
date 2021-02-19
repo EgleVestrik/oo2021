@@ -8,18 +8,16 @@ public class House {
     //building color
     private String buildColor = "blue";
 
-    //    public GameCharacter(String name, GameCharacterType gameCharacterType){
     public House(String streetName, int streetnr, int apartmentNr){
         this.streetName=streetName;
-
         this.streetnr=streetnr;
         this.apartmentNr=apartmentNr;
     }
-    public String getSecret(){
+    public String getColor(){
         return buildColor;
     }
     
-    public void setSecret(String buildColor){
+    public void setColor(String buildColor){
       this.buildColor = buildColor;
     }
     
