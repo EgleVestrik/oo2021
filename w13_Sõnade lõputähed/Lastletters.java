@@ -43,8 +43,10 @@ public class Lastletters {
                 
             } else if((filewords.get(i)).contains("!")){
                 words.add(((filewords.get(i)).replace("!","")).toLowerCase());
+
             } else if((filewords.get(i)).contains(")")){
                 words.add(((filewords.get(i)).replace(")","")).toLowerCase());
+                
             } else if((filewords.get(i)).contains("(")){
                 words.add(((filewords.get(i)).replace("(","")).toLowerCase());
             }else{
