@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 //Sõnade lõputähed
@@ -17,16 +18,32 @@ public class Lastletters {
 
     public static void readfile(){
         try {
-            File myObj = new File("Toretext.txt");
-            Scanner myReader = new Scanner(myObj);
-            while (myReader.hasNextLine()) {
-              String data = myReader.nextLine();
-              System.out.println(data);
+            File myFile = new File("Toretext.txt");
+            Scanner s = new Scanner(myFile);
+            ArrayList<String> filewords = new ArrayList<String>();
+            //panen failid listi
+            while (s.hasNext()){
+                filewords.add(s.next());
             }
-            myReader.close();
-          } catch (FileNotFoundException e) {
+            //eemaldan 
+            for (int i = 0; i < filewords.size(); i++) {
+                if (filewords.get(i)=="–"){
+                    filewords.remove(i);
+                }
+            }
+            System.out.println(filewords);
+
+
+            s.close();
+        } catch (FileNotFoundException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
-          }
+        }
+
+        
+    }
+
+    public static void lastLetter(String word){
+
     }
 }
