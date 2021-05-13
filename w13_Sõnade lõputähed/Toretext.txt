@@ -20,7 +20,8 @@ Raamatus on rohkesti tekstinäiteid ning harjutusi ja ülesandeid. Osa ülesanne
 juhendamisel peetaval kursusel on kerge leida sarnaseid lisaharjutusi ning analüüsida õpikus toodute eeskujul suvalisi tekste. Reet Kasik
 Nimetust tekst kasutatakse keeleteaduses nii kirjaliku kui suulise väljenduse üksustele viitamisel. Tekst on suhtluses keelekasutuse põhiüksuseks. Tekst on kasutusel olev keel, mille ülesandeks 
 vahendada sõnumit. Kui teksti käsitatakse nii avaralt, siis on võimatu esitada ühiseid vormitunnuseid, mis kehtiksid mis tahes teksti jaoks. Teksti omadused sõltuvad sellest, kus ta kasutusel on
- (raadios, ajalehes, teadusartiklis, sõpradevahelisel suhtlemisel), kes teda kasutab (poliitik, diskor, luuletaja, kohtunik), milleks teda kasutatakse (tahetakse kellelegi midagi selgeks teha, tahetakse midagi teada saada või tahetakse panna keegi midagi tegema).
+(raadios, ajalehes, teadusartiklis, sõpradevahelisel suhtlemisel), kes teda kasutab (poliitik, diskor, luuletaja, kohtunik), milleks teda kasutatakse (tahetakse kellelegi midagi selgeks teha, 
+tahetakse midagi teada saada või tahetakse panna keegi midagi tegema).
 Sageli peetakse tekstist rääkides siiski silmas kitsamat tähendust, mõeldes teksti all ühe inimese kirjutatud monoloogi. Kirjutatud tekst esineb meie kogemuses tootena, esemena, 
 asjana. See on tähendustervik, mille sisu ja vormi kujundavad selle elemendid - sõnad, laused, fraasid. Teksti keelelistest valikutest tuleneb selle eesmärk ja liik ning selles 
 võib eristada mitmesuguseid struktuuriosi. Niiviisi iseloomustatud kirjalik tekst on oma algupärasest kontekstist väljavõetunagi mõistetav tervik.
