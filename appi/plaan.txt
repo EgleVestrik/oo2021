@@ -1,0 +1,7 @@
+Esmaspäev{12=mata}
+Teisipäev{}
+Kolmapäev{}
+Neljapäev{}
+Reede{}
+Laupäev{}
+Pühapäev{}

@@ -17,7 +17,7 @@ public class AppTest {
 
     @Test
     public void JoogiPudeliMassTest(){
-        assertEquals(3, app.joogipudelMass(2, 1));
+        assertEquals(3, app.joogipudelMass(1, 1));
     }
 
     @Test
