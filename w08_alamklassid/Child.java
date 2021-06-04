@@ -1,17 +1,18 @@
 public class Child extends Parent {
-    public Child(String name, String dream, int age){
-        super(name, dream, age);
-    }
 
-    @Override
-    public void firstThingIDO(){
-        super.firstThingIDO();
-        System.out.println("I get up to the  mischief");
+    public Child(String name, String dream) {
+      super(name, dream);
+      this.age = 29;
     }
-
+  
     @Override
-    public void howISpendMyEvening() {
-        System.out.println("I run around");
-        
+    public void firstThingIDo() {
+      super.firstThingIDo();
+      System.out.println("I get up to mischief");
     }
+  
+      @Override
+      public void howISpendMyEvenings() {
+      System.out.println("I run around");
+      }
 }

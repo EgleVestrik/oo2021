@@ -1,22 +1,25 @@
-public abstract class Parent{
+public abstract class Parent {
     public String name;
     public String dream;
     public int age;
-
-
-    public Parent(String name, String dream, int age){
-        this.name=name;
-        this.dream=dream;
-        this.age=age;
+    // mõelge kolmas välja
+  
+    public Parent(String name, String dream){
+      this.name = name;
+      this.dream = dream;
     }
-
-    public void favouritHobbyIs(String hobby){
-        System.out.println(this.name + "'s favourit hobby is "+ hobby);
+  
+    public void favouriteHobbyIs(String hobby){
+      System.out.println(this.name + "'s favourite hobby is " + hobby);
     }
-
-    public void firstThingIDO(){
-        System.out.println("I Brush my teeth");
+  
+    public void firstThingIDo(){
+      System.out.println("I brush my teeth");
     }
-
-    public abstract void howISpendMyEvening();
+  
+    public abstract void howISpendMyEvenings();
 }
+  
+  // Looge uus klass, mis extendib parentit
+  // kasutage super keywordi, kas konstruktoris
+  // või meetodis
